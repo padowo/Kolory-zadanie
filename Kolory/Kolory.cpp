@@ -15,6 +15,7 @@
 
 using namespace std;
 
+
 struct Gracz {
     string imie;
     int kasa = 0;
