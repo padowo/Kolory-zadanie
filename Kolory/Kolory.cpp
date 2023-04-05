@@ -16,7 +16,7 @@
 using namespace std;
 
 
-struct Gracz {
+struct Gracz {//zrobic klase gracze czy cos tego typu
     string imie;
     int kasa = 0;
     int portfel = 0; //kasa z wygranych rund
@@ -148,9 +148,9 @@ int main()
     haslo = hasla[j];
     n = haslo.size();
 
-    gracze[0].imie = "Bryanusz";
-    gracze[1].imie = "Jessica ";
-    gracze[2].imie = "Nepomucen";
+    gracze[0].imie = "Brajan";
+    gracze[1].imie = "Asia ";
+    gracze[2].imie = "Patryk";
 
     for (i = 0; i < n; i++)
     {
